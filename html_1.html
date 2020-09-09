@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+    <style type="text/css">
+      .block {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+        padding-right: 20px; 
+        border: solid 1px black;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+    </style>
+  </head>
+  <body>
+    <input type ="text" value = "" id = "input" placeholder="текст">
+    <button id = "click">click me</button>
+    <div class = "block" id = 'div'></div>
+
+    <script>
+      let elemBut = document.getElementById("click");
+
+      const func = () => {
+        let input = document.getElementById('input');
+        document.getElementById('div').innerHTML = input.value;
+        input.value = "";
+      }
+
+      elemBut.addEventListener('click', func)
+
+    </script>
+  </body>
+</html>
