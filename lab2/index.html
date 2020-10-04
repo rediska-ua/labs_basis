@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NotesApp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class = "container" id = "container">
+        <div class = "notesContainer" id = "notesContainer">
+            <div class = "notesHeader"><h2>Notes</h2></div>
+            <div class = "notesList" id = "notesList">
+            </div>
+        </div>
+        <div class = "noteEdit" id = "noteEdit">
+            <div class = "buttons" id = "buttons">
+                <button class = "addBtn" id = "addBtn">New Note</button>
+                <button class = "saveBtn" id = "saveBtn">Save</button>
+                <button class = "deleteBtn" id = "deleteBtn">Delete</button>
+            </div>
+            <div class="noteArea">
+                <div class="noteDate" id = "noteDate"></div>
+                <div class="noteContent">
+                    <textarea class = "noteTitle" id = "noteTitle" placeholder="Title"></textarea>
+                    <textarea class= "noteText" id = "noteText" placeholder="Your text"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

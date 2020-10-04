@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(224, 224, 191);;
+}
+
+.container {
+    background-color: #F0EEEE;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.notesContainer {
+    display: flex;
+    background-color: #F0EEEE;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+}
+
+.notesHeader {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newNote {
+    display: flex;
+    background-color: #F0EEEE;
+    margin-top: 20px;
+    height: 70px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.noteDate {
+    display: flex;
+    height: 5vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.noteEdit {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 90vh;
+}
+
+.noteEdit .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.noteContent{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}
+
+.noteTitle {
+    border: none;
+    resize: none;
+    height: 10vh;
+    width: 80vw;
+}
+
+.noteText {
+    border: none;
+    resize: none;
+    height: 80vh;
+    width: 80vw;
+}
+
